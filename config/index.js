@@ -13,16 +13,6 @@ const config = Object.freeze({
     port: process.env.DB_PORT,
     name: process.env.DB_NAME,
   },
-  jwt: {
-    secret: process.env.JWT_SECRET_KEY,
-  },
-  crypto: {
-    hmacSecret: process.env.HMAC_SECRET_KEY,
-  },
-  mail: {
-    username: process.env.MAIL_USERNAME,
-    password: process.env.MAIL_PASSWORD,
-  },
   facebookAuth: {
     clientID      : process.env.FB_APP_ID, 
     clientSecret  : process.env.FB_API_SECRET, 
