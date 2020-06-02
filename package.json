@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node -r dotenv/config ./src/server.js",
-    "addAdmin": "babel-node ./seeds/addSuperAdmin.js",
+   
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdriusGroup/questionnaire-backend.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/AdriusGroup/questionnaire-backend/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/AdriusGroup/questionnaire-backend#readme",
+  "homepage": "",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bcryptjs": "^2.4.3",
